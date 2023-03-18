@@ -23,7 +23,6 @@ const io = socketIO(server, {
 });
 let connectedUsers = 0;
 
-
 io.on("connection", (socket) => {
   connectedUsers++;
   console.log(`server is running for ${connectedUsers} users`);
@@ -39,7 +38,6 @@ io.on("connection", (socket) => {
     io.emit("connectedUsers", { count: connectedUsers });
   });
 });
-
 
 server.listen(3001, () => {
   console.log("server is running");
