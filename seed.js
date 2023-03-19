@@ -13,7 +13,7 @@ const products = [
     category: ["Men's wear"],
     size: "L",
     price: 200,
-    color:"red",
+    color: "red",
   },
   {
     title: "Shirti",
@@ -23,7 +23,7 @@ const products = [
     category: ["Men's wear"],
     size: "L",
     price: 200,
-    color:"green",
+    color: "green",
   },
   {
     title: "Shirty",
@@ -33,7 +33,7 @@ const products = [
     category: ["Men's wear"],
     size: "L",
     price: 200,
-    color:"yellow",
+    color: "yellow",
   },
   {
     title: "Prade shirt",
@@ -43,7 +43,7 @@ const products = [
     category: ["Men's wear"],
     size: "L",
     price: 500,
-    color:"blue",
+    color: "blue",
   },
   {
     title: "Jacket",
@@ -53,7 +53,7 @@ const products = [
     category: ["Women's wear"],
     size: "M",
     price: 700,
-    color:"red",
+    color: "red",
   },
 ];
 
