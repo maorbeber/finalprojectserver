@@ -51,7 +51,7 @@ const products = [
     image:
       "https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
     category: ["Women's wear"],
-    size: "S",
+    size: "M",
     price: 700,
     color:"red",
   },
